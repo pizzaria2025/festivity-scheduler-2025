@@ -1,6 +1,8 @@
 import Calendar from "@/components/Calendar";
 
 const Index = () => {
+  console.log("Index page rendering");
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="container py-8">

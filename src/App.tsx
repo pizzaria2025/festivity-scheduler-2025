@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
+  console.log("App component rendering");
   const queryClient = new QueryClient();
   
   return (
